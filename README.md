@@ -12,5 +12,5 @@ for direct ssh do: /// ssh-copy-id USER@HOST \\\  \n
 Works on any machine. This was done in VirtualBox you need to setup network settings (NAT && hostOnly adapters). 
 Setup sudoers file in debian (/ets/sudoers). 
 Set up network configuration in CentOS.
-if you want to secure your password use my existing file dbpassword.yml and do ansible-enxrypt dbpassword.yml. When you get the key copy paste on the 
+if you want to secure your password use my existing file dbpassword.yml and do ansible-encrypt dbpassword.yml. When you get the key copy paste on the 
 location where the login_password was.
